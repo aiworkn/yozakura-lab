@@ -21,7 +21,7 @@
         --bg-deep: #f3ecdf;
         --surface: #fffdf8;
         --ink: #23202b;
-        --ink-soft: #57536a;
+        --ink-soft: #46425c;
         --line: #ddd3c2;
         --sakura: #c14b74;
         --sakura-deep: #9c3358;
@@ -79,11 +79,11 @@
       .brand { display: flex; align-items: baseline; gap: 10px; text-decoration: none; color: var(--ink); }
       .brand .mark { font-family: var(--serif); font-weight: 700; font-size: 1.25rem; letter-spacing: .04em; }
       .brand .mark em { font-style: normal; color: var(--sakura); }
-      .brand .sub { font-size: .72rem; letter-spacing: .28em; color: var(--ink-soft); }
+      .brand .sub { font-size: .85rem; letter-spacing: .28em; color: var(--ink-soft); }
       .nav-links { display: flex; gap: 4px; flex-wrap: wrap; }
       .nav-links a {
         display: inline-flex; align-items: center;
-        padding: 6px 12px; font-size: .85rem; font-weight: 500;
+        padding: 6px 12px; font-size: .95rem; font-weight: 500;
         color: var(--ink); text-decoration: none; border-radius: 999px;
       }
       .nav-links a:hover { background: var(--sakura-soft); color: var(--sakura-deep); }
@@ -125,7 +125,7 @@
         padding: 15vh 0 12vh;
         max-width: 760px;
       }
-      .hero .yomi { font-size: .8rem; letter-spacing: .42em; color: #f0c3d2; margin: 0 0 14px; font-weight: 500; }
+      .hero .yomi { font-size: .9rem; letter-spacing: .42em; color: #f0c3d2; margin: 0 0 14px; font-weight: 500; }
       .hero h1 {
         font-family: var(--serif); font-weight: 700;
         font-size: clamp(2.9rem, 9vw, 5.2rem);
@@ -141,12 +141,12 @@
         text-shadow: 0 2px 24px rgba(10,12,22,.6);
       }
       .hero .creed .accent { color: #f5b9cd; }
-      .hero .lead { max-width: 34em; color: #e6dfcd; font-size: .98rem; margin: 0 0 34px; text-shadow: 0 1px 14px rgba(10,12,22,.6); }
+      .hero .lead { max-width: 34em; color: #e6dfcd; font-size: 1.05rem; margin: 0 0 34px; text-shadow: 0 1px 14px rgba(10,12,22,.6); }
       .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
       .btn {
         display: inline-flex; align-items: center; gap: 8px;
         padding: 12px 26px; border-radius: 999px;
-        font-weight: 700; font-size: .92rem; text-decoration: none;
+        font-weight: 700; font-size: 1rem; text-decoration: none;
         border: 1px solid transparent;
       }
       .btn-sakura { background: #c14b74; color: #fff; }
@@ -159,14 +159,14 @@
       .sec-head { margin-bottom: 40px; }
       .sec-head .no {
         font-family: var(--serif); color: var(--sakura);
-        font-size: .85rem; letter-spacing: .3em; margin: 0 0 8px; font-weight: 600;
+        font-size: .95rem; letter-spacing: .3em; margin: 0 0 8px; font-weight: 600;
       }
       .sec-head h2 {
         font-family: var(--serif); font-weight: 700;
         font-size: clamp(1.7rem, 5vw, 2.3rem); line-height: 1.35; margin: 0;
       }
       .sec-head h2 .en {
-        display: block; font-size: .8rem; letter-spacing: .3em;
+        display: block; font-size: .9rem; letter-spacing: .3em;
         color: var(--ink-soft); font-weight: 500; margin-top: 8px;
         font-family: var(--sans);
       }
@@ -185,8 +185,8 @@
         font-size: clamp(.95rem, 3vw, 1.2rem); color: var(--gold);
         margin: 0 0 34px; font-weight: 600;
       }
-      .creed-body { max-width: 44em; font-size: 1.02rem; }
-      .creed-body p { margin: 0 0 1.2em; }
+      .creed-body { max-width: 44em; font-size: 1.08rem; }
+      .creed-body p { margin: 0 0 1.6em; }
       .creed-body strong { color: var(--sakura-deep); font-weight: 700; }
       .principles {
         display: grid; grid-template-columns: repeat(3, 1fr);
@@ -201,20 +201,20 @@
         font-weight: 700; line-height: 1; margin-bottom: 14px;
       }
       .principle h3 { font-family: var(--serif); font-size: 1.12rem; margin: 0 0 10px; font-weight: 700; }
-      .principle p { margin: 0; font-size: .9rem; color: var(--ink-soft); line-height: 1.8; }
+      .principle p { margin: 0; font-size: 1rem; color: var(--ink-soft); line-height: 1.8; }
 
       /* fields */
       .fields { display: grid; grid-template-columns: 1fr 1fr; gap: 0 56px; }
       .field { padding: 26px 0; border-top: 1px solid var(--line); }
       .field:last-child, .field:nth-last-child(2) { border-bottom: 1px solid var(--line); }
       .field .tag {
-        display: inline-block; font-size: .72rem; font-weight: 700; letter-spacing: .18em;
+        display: inline-block; font-size: .85rem; font-weight: 700; letter-spacing: .18em;
         color: var(--sakura-deep); border: 1px solid var(--sakura);
         padding: 2px 10px; border-radius: 999px; margin-bottom: 12px;
       }
       .field h3 { font-family: var(--serif); font-size: 1.3rem; margin: 0 0 8px; font-weight: 700; }
-      .field p { margin: 0 0 10px; color: var(--ink-soft); font-size: .94rem; }
-      .field .stack { font-size: .8rem; color: var(--ink-soft); letter-spacing: .04em; margin: 0; }
+      .field p { margin: 0 0 10px; color: var(--ink-soft); font-size: 1rem; }
+      .field .stack { font-size: .9rem; color: var(--ink-soft); letter-spacing: .04em; margin: 0; }
       .field .stack b { color: var(--ink); font-weight: 700; }
 
       /* works */
@@ -235,22 +235,22 @@
       .work figure img { width: 100%; height: 100%; object-fit: cover; }
       .work .body { padding: 24px 26px 26px; display: flex; flex-direction: column; gap: 10px; flex: 1; }
       .work .meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-      .work .cat { font-size: .72rem; font-weight: 700; letter-spacing: .16em; color: #f0a8c0; }
+      .work .cat { font-size: .85rem; font-weight: 700; letter-spacing: .16em; color: #f0a8c0; }
       .status {
-        font-size: .7rem; font-weight: 700; letter-spacing: .08em;
+        font-size: .84rem; font-weight: 700; letter-spacing: .08em;
         padding: 2px 9px; border-radius: 999px; border: 1px solid;
       }
       .status.on { color: #9fd8ae; border-color: #4c7a58; background: rgba(76,122,88,.16); }
       .status.dev { color: #ecd28a; border-color: #8a7434; background: rgba(138,116,52,.16); }
       .status.rd { color: #a9c6ec; border-color: #4d648c; background: rgba(77,100,140,.18); }
       .work h3 { font-family: var(--serif); font-size: 1.35rem; margin: 0; font-weight: 700; color: #f5f1e6; }
-      .work h3 .sub { display: block; font-size: .78rem; font-family: var(--sans); font-weight: 500; letter-spacing: .14em; color: #9aa0b4; margin-top: 4px; }
-      .work p { margin: 0; font-size: .92rem; color: #c3c7d2; line-height: 1.85; }
-      .work .spec { font-size: .8rem; color: #8f96a9; margin-top: auto; padding-top: 6px; }
+      .work h3 .sub { display: block; font-size: .88rem; font-family: var(--sans); font-weight: 500; letter-spacing: .14em; color: #9aa0b4; margin-top: 4px; }
+      .work p { margin: 0; font-size: 1rem; color: #c3c7d2; line-height: 1.85; }
+      .work .spec { font-size: .9rem; color: #8f96a9; margin-top: auto; padding-top: 6px; }
       .work .links { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 4px; }
       .work .links a {
         display: inline-flex; align-items: center; gap: 6px;
-        font-size: .85rem; font-weight: 700; color: #f0a8c0;
+        font-size: .95rem; font-weight: 700; color: #f0a8c0;
         text-decoration: none; border: 1px solid #6e4356;
         padding: 8px 16px; border-radius: 999px;
       }
@@ -260,7 +260,7 @@
       .profile-table { width: 100%; border-collapse: collapse; max-width: 720px; }
       .profile-table th, .profile-table td {
         text-align: left; padding: 14px 16px 14px 0; vertical-align: top;
-        border-bottom: 1px solid var(--line); font-size: .95rem;
+        border-bottom: 1px solid var(--line); font-size: 1.02rem;
       }
       .profile-table th { font-weight: 700; white-space: nowrap; width: 9.5em; color: var(--ink); }
       .profile-table td { color: var(--ink-soft); }
@@ -270,7 +270,7 @@
         display: flex; align-items: center; justify-content: space-between; gap: 20px; flex-wrap: wrap;
       }
       .contact-box h3 { font-family: var(--serif); margin: 0 0 6px; font-size: 1.2rem; }
-      .contact-box p { margin: 0; color: var(--ink-soft); font-size: .9rem; }
+      .contact-box p { margin: 0; color: var(--ink-soft); font-size: 1rem; }
       .contact-box .mail {
         font-family: var(--serif); font-size: clamp(1.05rem, 4vw, 1.4rem); font-weight: 700;
         color: var(--sakura-deep); text-decoration: none; letter-spacing: .02em;
@@ -280,7 +280,7 @@
 
       footer {
         border-top: 1px solid var(--line); padding: 34px 0 44px;
-        color: var(--ink-soft); font-size: .82rem;
+        color: var(--ink-soft); font-size: .9rem;
       }
       .foot-inner { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: baseline; }
       .foot-inner .fbrand { font-family: var(--serif); font-weight: 700; color: var(--ink); font-size: 1rem; }
@@ -301,7 +301,7 @@
         .brand .mark { font-size: 1.05rem; white-space: nowrap; }
         .brand .sub { display: none; }
         .nav-links { flex-wrap: nowrap; }
-        .nav-links a { padding: 6px 8px; font-size: .78rem; white-space: nowrap; }
+        .nav-links a { padding: 6px 8px; font-size: .88rem; white-space: nowrap; }
         .profile-table th { width: 7.5em; }
       }
     </style>
